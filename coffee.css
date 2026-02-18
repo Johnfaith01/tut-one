@@ -1,0 +1,699 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(235, 213, 181, 0.877);
+    margin: 50px;
+}
+
+.coffee-header-main{
+    background: url(assets/Coffee.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.coffee-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin: 30px 50px;
+}
+
+.coffee-header-link{
+    display: flex;
+    gap: 40px;
+}
+
+.coffee-header-link a{
+    text-decoration: none;
+    color: white;
+}
+
+.coffee-header-icon{
+    margin-right: 60px;
+}
+
+.coffee-header-details{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    gap: 10px;
+    width: 650px;
+}
+
+.coffee-header-details h2{
+    color: white;
+}
+
+.coffee-header-details p{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.coffee-header-details button{
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: white;
+    font-weight: bold;
+}
+
+.coffee-icons{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+
+.hot-coffee{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cold-coffee{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cup-coffee{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dessert{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+
+.special-coffee{
+    display: flex;
+    flex-direction: column;
+    margin-block: 30px;
+    /* margin-inline: 100px; */
+}
+
+.special-coffee h2{
+    text-align: center;
+    margin-block: 20px;
+}
+
+.special-coffee-main{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-left: 100px;
+}
+
+.lungo{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    gap: 10px;
+}
+
+.lungo-header{
+    position: relative;
+}
+
+.lungo-body p{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.lungo-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lungo-footer p{
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.lungo-footer button{
+    border: none;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+
+.dalgona{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    gap: 10px;
+}
+
+.dalgona-header{
+    position: relative;
+}
+
+.Dalgona-body p{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.Dalgona-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Dalgona-footer p{
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.Dalgona-footer button{
+    border: none;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.Iced{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    gap: 10px;
+}
+
+.Iced-header{
+    position: relative;
+}
+
+.Iced-body p{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.Iced-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Iced-footer p{
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.Iced-footer button{
+    border: none;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.filter{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    gap: 10px;
+}
+
+.filter-header{
+    position: relative;
+}
+
+.filter-body p{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.filter-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter-footer p{
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.filter-footer button{
+    border: none;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.special-dessert{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.special-dessert h2{
+    text-align: center;
+    margin-block: 20px;
+}
+
+.special-dessert-main{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-left: 100px;
+}
+
+.Gulab-jamun{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    gap: 10px;
+}
+
+.Gulab-jamun-header{
+    position: relative;
+}
+
+.Gulab-jamun-body p{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.Gulab-jamun-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Gulab-jamun-footer p{
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.Gulab-jamun-footer button{
+    border: none;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+
+.Chocolate-tiramisu{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    gap: 10px;
+}
+
+.Chocolate-tiramisu-header{
+    position: relative;
+}
+
+.Chocolate-tiramisu-body p{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.Chocolate-tiramisu-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Chocolate-tiramisu-footer p{
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.Chocolate-tiramisu-footer button{
+    border: none;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.Churros{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    gap: 10px;
+}
+
+.Churros-header{
+    position: relative;
+}
+
+.Churros-body p{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.Churros-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Churros-footer p{
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.Churros-footer button{
+    border: none;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.Lamingtons{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    gap: 10px;
+}
+
+.Lamingtons-header{
+    position: relative;
+}
+
+.Lamingtons-body p{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.Lamingtons-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Lamingtons-footer p{
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.Lamingtons-footer button{
+    border: none;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.coffee-betans{
+    background: url(assets/C-beans-pour.png);
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.coffee-betans h2{
+    font-weight: bold;
+    color: rgb(36, 11, 11);
+    font-size: 2rem;
+}
+
+.coffee-betans button{
+    border: none;
+    width: 170px;
+    height: 30px;
+    border-radius: 30px;
+    color: white;
+    background-color: rgb(36, 11, 11);
+    cursor: pointer;
+}
+
+.coffee-review{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.review-header{
+    text-align: center;
+    margin-block: 40px 20px;
+    
+}
+
+.review-header p{
+    font-style: italic;
+    font-family: serif;
+    color: rgb(36, 11, 11);
+    font-weight: bold;
+}
+
+.review-header h2{
+    color: rgb(36, 11, 11);
+}
+
+.review-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.review-main{
+    display: flex;
+    gap: 10px;
+}
+
+.review-body-one{
+    width: 600px;
+    background-color: rgba(235, 213, 181, 0.877);
+    padding: 10px;
+    border-radius: 5px;
+    margin-block: 8px;
+    
+}
+
+.james{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.james-star{
+    color: orange;
+}
+
+.name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.james-circle{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.james-circle img{
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+.james-details h2{
+    font-size: 1rem;
+}
+
+.james-details p{
+    font-size: 0.7rem;
+}
+.review-body-two{
+    width: 800px;
+    background-color: rgba(235, 213, 181, 0.877);
+    padding: 20px;
+    border-radius: 5px;
+    /* height: 180px; */
+}
+
+.sam-star{
+    color: orange;
+}
+.sam-circle{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.sam-circle img{
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.sam-details h2{
+    font-size: 1rem;
+}
+
+.sam-details p{
+    font-size: 0.7rem;
+}
+
+.review-body-three{
+    width: 600px;
+    background-color: rgba(235, 213, 181, 0.877);
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 40px;
+    margin-block: 8px;
+}
+
+.Angela-star{
+    color: orange;
+}
+
+.angela-circle{
+     display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.angela-circle img{
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.angela-details h2{
+    font-size: 1rem;
+}
+
+.angela-details p{
+    font-size: 0.7rem;
+}
+
+.review-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.review-icon i:nth-child(1){
+    font-size: 60px;
+}
+
+
+.join-us{
+    background: url(assets/C-beans-pour.png);
+    background-position: center;
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.join-in{
+    color: rgb(36, 11, 11);
+}
+
+.join-in h2{
+    text-align: center;
+}
+
+input{
+    width: 350px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+}
+
+form button{
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(36, 11, 11);
+    color: white;
+}
+
+.coffee-footer{
+    background-color: rgb(36, 11, 11);
+    padding-block: 40px;
+}
+
+.footer-services{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    margin-inline: 100px;
+    color: white;
+}
+
+.privacy, 
+.services,
+.about-us,
+.information{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-links{
+    display: flex;
+    gap: 30px;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: white;
+}
+
+.overlay{
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: white;
+    padding: 10px 10px 0;
+
+}
